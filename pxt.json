@@ -1,5 +1,5 @@
 {
-    "name": "raspberry pi pico rp2040",
+    "name": "John3-16",
     "description": "",
     "dependencies": {
         "rpi-pico": "*"
