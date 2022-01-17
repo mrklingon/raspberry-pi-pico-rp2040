@@ -14,9 +14,9 @@ function encrypt (text: string) {
     }
 }
 function doDot () {
-    pins.P18.digitalWrite(true)
+    pins.P22.digitalWrite(true)
     pause(200)
-    pins.P18.digitalWrite(false)
+    pins.P22.digitalWrite(false)
     pause(200)
 }
 function playCode (text: string) {
@@ -35,7 +35,9 @@ function playCode (text: string) {
 }
 function doSpace () {
     pins.LED.digitalWrite(true)
+    pins.P2.digitalWrite(true)
     pause(500)
+    pins.P2.digitalWrite(false)
     pins.LED.digitalWrite(false)
     pause(200)
 }
